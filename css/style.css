@@ -1,0 +1,90 @@
+BODY {
+  background: url('../img/fondo.jpg');
+  /*background-color: #311;*/
+  min-height:400px;
+  padding:20px;
+  color:#DDDDDD;
+  font-family:verdana;
+}
+
+#board{
+  display: block;
+  clear: both;
+  width:100%;
+  min-height: 240px;
+}
+
+#playerCards {
+	display: flex;
+	justify-content: center;
+}
+
+.card, #deck{
+box-sizing: border-box;  
+width: 150px;
+height: 214px;
+margin:10px;
+float: left;  
+background-color: white;
+background-image: url('https://i.imgur.com/yKggR5N.png');
+background-position-x: 0px;
+background-position-y: center;
+background-repeat: none;
+background-position: middle center;  
+border: 1px #555555 solid;
+border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px 0px #000000; 
+box-shadow: 2px 2px 3px 0px #000000; 
+}
+
+#deck {
+	margin-right: 30px;
+	display: flex;
+	align-items: center;
+}
+
+#deck p {
+	color: white;
+	font-weight: 800;
+	font-size: 1.2rem;
+	text-align: center;
+	background-color: #33333399;
+	padding: 10px 0;
+	
+}
+
+HR {
+  margin-top:12px;
+  display: block;
+  width:100%;
+}
+
+.panel {
+	padding: 50px 0;
+	width: 250px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+BUTTON {
+  cursor: pointer;
+  width:200px;
+  height:40px;
+  text-align:center;
+  margin:20px;
+  border-radius: 5px;
+  
+}
+
+#puntos {
+	margin: 20px;
+	width: 80%;
+	padding: 10px;
+	text-align: center;
+	background-color: #aaaaaa99;
+
+}
